@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV DUMAS Gérémy DevOps Formation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#000'
+              },
+              spacing: {
+                '10xl': '56px'
+              },
+              fontSize: {
+                titleGD : '48px'
+              }
+            }
+          }
+        }
+      </script>
+    <title>CV DUMAS Gérémy</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="liStyleReset">
+                    <a class="aStyleReset" href="../profil.html">Retour aux profils</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionHeroBanner">
+            <div class="div50 flexDirectionColumn titleCV">
+                <h1 class="modifH1">Gérémy DUMAS</h1>
+                <hr class="hrProfil">
+                <h2 class="animateFormation">Formation DevOps</h2>
+            </div>
+            <div class="div50 photoCV">
+                <img class="imgProfil" src="../assets/photos/geremy 2.jpg" alt="photo_de_profil">
+            </div>
+        </section>
+    
+        <section>
+            <div class="divTitleAbout">
+                <h3 class="font-bold text-clifford">A propos</h3>
+            </div>
+            <div class="divContentAbout">
+                <p>Je me présente <strong id="name">Gérémy DUMAS</strong>, j'ai appris le développement en partie en <span style="font-style: italic;">autodidacte</span> avant d'intégrer une formation de DevOps au campus numérique. Cette volonter d'intégrer la formation DevOps vient du fais que j'ai appris chez moi à mettre en place un petit serveur sous Open Media Vault afin de gérer une bibliothèque de film.</p>
+            </div>
+        </section>
+        <div class="bgCompetenceAndHobbie">
+            <section class="sectionCompetenceAndHobbie">
+                <div class="divCompetence">
+                    <div>
+                        <h3 class="font-bold">Compétences</h3>
+                    </div>
+                    <div>
+                        <ul class="list-disc">
+                            <li>HTML / CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="divHobbie">
+                    <div>
+                        <h3 class="font-bold">Hobbies</h3>
+                    </div>
+                    <div>
+                        <ol class="list-decimal">
+                            <li>Le sport et en particulier l'haltérophilie</li>
+                            <li>Le snowboard</li>
+                            <li>La programmation</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="divExperience">
+                <h3 class="font-bold">Mes expériences</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Expériences</th>
+                            <th>Description du poste</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FitnessPark - Coach</td>
+                            <td>Elaboration et animation de cours de CrossFit en groupe de 12 à 15 personnes.</td>
+                            <td>2019 - 2022</td>
+                        </tr>
+                        <tr>
+                            <td>CFA FEA - Formateur</td>
+                            <td>Formateur en anatomie, biomécanique et haltérophilie ainsi que référent UC4</td>
+                            <td>2019 - 2023</td>
+                        </tr>
+                        <tr>
+                            <td>NEOSOMA - Président</td>
+                            <td>Gestion d'une société spécialisé dans le coaching à domicile</td>
+                            <td>2021 - 2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

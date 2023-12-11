@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV DUMAS Gérémy DevOps Formation">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#000'
+              },
+              spacing: {
+                '10xl': '56px'
+              },
+              fontSize: {
+                titleGD : '48px'
+              }
+            }
+          }
+        }
+      </script>
+    <title>CV CHALOYARD Hugo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="liStyleReset">
+                    <a class="aStyleReset" href="../profil.html">Retour aux profils</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sectionHeroBanner">
+            <div class="div50 flexDirectionColumn titleCV">
+                <h1 class="modifH1">Hugo CHALOYARD</h1>
+                <hr class="hrProfil" id="Hugo-hr">
+                <h2 class="animateFormation">Formation DevOps</h2>
+            </div>
+            <div class="div50 photoCV">
+                <img class="imgProfil" src="../assets/photos/hugo 2.jpg" alt="photo_de_profil">
+            </div>
+        </section>
+    
+        <section>
+            <div class="divTitleAbout">
+                <h3 class="font-bold text-clifford">A propos</h3>
+            </div>
+            <div class="divContentAbout" id="Hugo-about">
+                <p>Bonjour, je m'appelle <strong id="name">Hugo CHALOYARD</strong>. J'aime les jeux vidéo, le longboard, la lecture, les chats, les tatouages et la musique.Je suis également très intéressé par les  <span style="font-style: italic;">nouvelles technologies et passionné d'informations.</span></p>
+            </div>
+        </section>
+        <div class="bgCompetenceAndHobbie" id="Hugo-comp">
+            <section class="sectionCompetenceAndHobbie">
+                <div class="divCompetence">
+                    <div>
+                        <h3 class="font-bold">Compétences</h3>
+                    </div>
+                    <div>
+                        <ul class="list-disc">
+                            <li>Python</li>
+                            <li>Débutant Html / CSS</li>
+                            <li>JavaScript</li>
+                            <li>Anglais - Courant</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="divHobbie">
+                    <div>
+                        <h3 class="font-bold">Hobbies</h3>
+                    </div>
+                    <div>
+                        <ol class="list-decimal">
+                            <li>Longboard</li>
+                            <li>Jeux vidéos</li>
+                            <li>Tatouage</li>
+                            <li>Lire</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section>
+            <div class="divExperience">
+                <h3 class="font-bold">Mes expériences</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Expériences</th>
+                            <th>Description du poste</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Employé commercial Polyvalent</td>
+                            <td>EChargé de la réception de commande,
+                                mise en rayon des produits, facing et caisse.</td>
+                            <td>2022 - 2022</td>
+                        </tr>
+                        <tr>
+                            <td>Formation DEVOPS</td>
+                            <td>Formation pour devenir administrateur DevOps</td>
+                            <td>2023 - 2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
